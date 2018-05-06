@@ -1,0 +1,107 @@
+<!doctype html>
+<html class="no-js" lang="es">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Floreria Antohan</title>
+	<link rel="stylesheet" href="css/foundation.min.css">
+	<link href='css/foundation-icons.css' rel='stylesheet' type='text/css'>
+	<script>window.$ = window.jQuery = require('js/jquery.js');</script>
+	<script src="js/jquery.flipster.min.js"></script>
+	<link rel="stylesheet" href="css/estilosweb.css">
+	<link rel="stylesheet" href="css/contacto.css">
+	<link rel="icon" href="img/rosa_icono.ico">
+	<link href="https://fonts.googleapis.com/css?family=Racing+Sans+One" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+</head>
+<body>
+
+<div class="row" id="logo">
+    <img align="center" src="img/logo.jpg" alt="">
+</div>
+
+
+<!--barra de navegacion-->
+<div align="center" class="top-bar" id="top-bar">
+	<div class="">
+		<ul class="dropdown menu" id="ya" data-dropdown-menu>
+	        <li><a href="index.html" class="black Racing">Inicio</a></li>
+	        <li><a href="catalogo.html" class="black Racing">Catalogo</a></li>
+	        <li><a href="correo.html" class="black Racing">Contactanos</a></li>
+        </ul>
+    </div>
+</div>
+<!--formularios dee pedidos-->
+<br>
+
+<div class="row contact">
+	<div align="center"><h3>Contactanos</h3></div>
+	<br>
+	<div align="center" class="medium-uncollapse">
+		<div id="ubi" class="large-4 columns">
+			<div  class="container image">
+			  <img src="img/ubicacion.png" alt="">
+			  <div class="overlay">Toluca, Centro</div>
+			</div>
+		</div>
+		<div id="con" class="large-4 columns">
+			<div  class="container image">
+			  <img src="img/telefono.png" alt="">
+			  <div class="overlay">7223941608</div>
+			</div>
+		</div>
+		<div id="corr" class="large-4 columns">
+			<div  class="container image">
+			  <img src="img/correo.png" alt="">
+			  <div class="overlay">contacto@floreria-antoha.com</div>
+			</div> 	
+		</div>
+		 
+	</div>
+	<div id="correo" class="medium-collapse">
+		<div class="large-6 columns">
+			<div>
+		<form action="php/correo.php" method="POST">
+			<div>
+				<label>Nombre:
+					<input id="nombre" name="nombre" type="text" >
+				</label>
+			</div>
+			<div>
+				<label>Asunto:
+					<input id="asunto" name="asunto" type="text" >
+				</label>
+			</div>
+			<div>
+				<label>Mensaje:
+					<textarea name="mensaje" id="mensaje" cols="10" rows="5"></textarea>
+				</label>
+			</div>
+			<div id="boton2">
+			    <input class="button Racing" type="submit" value="Enviar" id="ok">
+			</div>
+		</form>
+	</div>
+		</div>
+		<div class="large-6 columns">
+			<img src="img/rosa-contacto1.jpg" alt="">
+		</div>
+	</div>
+</div>
+
+
+<div class="row column">
+    <hr>
+    <ul class="menu rosa" id="footer">
+    	<li class="Racing">Floreria Antohan</li>
+    	<li class="float-right Racing">Copyright 2018 Software Incorporated</li>
+    </ul>
+</div>
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+<script>
+      $(document).foundation();
+    </script>
+</body>
+</html>

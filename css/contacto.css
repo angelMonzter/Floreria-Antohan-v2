@@ -1,0 +1,64 @@
+.contact{
+	width: 100%
+	height: 600px;
+	padding: 15px;
+}
+#ubi{
+	background-color:#f957c7;
+	border-radius: 5px;
+	opacity: 0.8;
+}
+#ubi img{
+	width: 100px;
+}
+#con img{
+	width: 100px;
+}
+#corr{
+	background-color:#f957c7;
+	border-radius: 5px;
+	opacity: 0.8;
+}
+#corr img{
+	width: 100px;
+}
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 18px;
+  padding: 20px;
+  text-align: center;
+
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 1;
+}
+@media screen and (max-width: 1400px) {
+  #correo{position:}
+  #correo img{
+    display: none;
+}

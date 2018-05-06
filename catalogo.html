@@ -1,0 +1,140 @@
+<!doctype html>
+<html class="no-js" lang="es">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Floreria Antohan</title>
+	<link rel="stylesheet" href="css/foundation.min.css">
+	<link href='css/foundation-icons.css' rel='stylesheet' type='text/css'>
+	<script>window.$ = window.jQuery = require('js/jquery.js');</script>
+	<script src="js/jquery.flipster.min.js"></script>
+	<link rel="stylesheet" href="css/catalogo.css">
+	<link rel="icon" href="img/rosa_icono.ico">
+	<link href="https://fonts.googleapis.com/css?family=Racing+Sans+One" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+</head>
+<body>
+<style>
+	/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+    background-color: ;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 130px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+} 
+</style>
+<div class="row" id="logo">
+    <img align="center" src="img/logo.jpg" alt="">
+</div>
+
+
+<!--barra de navegacion-->
+<div align="center" class="top-bar" id="top-bar">
+  <div class="">
+    <ul class="dropdown menu" id="ya" data-dropdown-menu>
+            <li><a href="index.html" class="black Racing">Inicio</a></li>
+            <li><a href="catalogo.html" class="black Racing">Catalogo</a></li>
+            <li><a href="correo.html" class="black Racing">Contactanos</a></li>
+        </ul>
+  </div>
+</div>
+<!--barra de navegacion-->
+<br>
+		<div class="row" id="ramos">	
+			<a href="catalogo-ramos.html"><img id="img_r1" class="img" src="img/ramos/inicioramos.jpg"></a>
+		</div>
+		<br>
+		<div class="row" id="carros">
+			<a href="catalogo-autos.html"><img id="img_c1" class="img" src="img/auto/inicioautos.jpg"></a>
+		</div>
+		<br>
+		<div class="row" id=arreglos>	
+			<a href="catalogo-arreglos.html"><img id="img_a1" class="img" src="img/arreglo/inicioarreglos.jpg"></a>
+		</div>
+		<br>
+		<div  class="row" id=eventos>	
+			<a href="catalogo-eventos.html"><img id="img_e1" class="img" src="img/eventos/inicioeventos.jpg"></a>
+		</div>
+		<br>
+
+
+	
+<div class="row column">
+    <hr>
+    <ul class="menu rosa" id="footer">
+    	<li class="Racing">Floreria Antohan</li>
+    	<li class="float-right Racing">Copyright 2018 Software Incorporated</li>
+    </ul>
+</div>
+
+<footer>
+    <div class="row medium-uncollapse large-collapse">
+        <div class="small-6 columns">
+        	<h5>Contactanos</h5>
+            <ul class="menu" id="footer">
+                <li><a href="https://www.facebook.com/floreriaantohan/"><img class="icono" src="img/facebook-logo.png" alt=""></a></li>
+                <li><a href="correo.html"><img class="icono" src="img/correo-logo.png" alt=""></a></li>
+                <li>
+                    <div class="tooltip">Telefono
+                      <span class=" icono2 tooltiptext"><img width="20" src="img/telefono.png" alt=""> 01 722 2154355</span>
+                    </div> 
+                </li>
+                <li>
+                    <div class="tooltip">Celular
+                      <span class="icono2 tooltiptext"><img width="20" src="img/whatsapp.png" alt=""> 044 7223941608</span>
+                    </div> 
+                </li>
+            </ul> 
+        </div>
+        <div id="frase" class="small-6 columns Racing">
+            <p>El hecho de que pueda plantar una semilla y se convierta en una flor, compartir un poco de conocimiento y que este se convierta en otro, sonreír a alguien y recibir una sonrisa a cambio, son para mí ejercicios espirituales continuos. -Leo Buscaglia..</p>
+        </div>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+<script>
+      $(document).foundation();
+    </script>
+</body>
+</html>

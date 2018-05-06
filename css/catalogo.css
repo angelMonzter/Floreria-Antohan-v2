@@ -1,0 +1,110 @@
+@import "foundation/components/tabs";
+html{
+	padding: 0;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: white;
+}
+#top-bar{
+	background-color:white;
+	padding: auto;
+}
+#ya{
+	background-color:#f2f2f2;
+	padding: auto;
+    height: 60px;
+    padding-top: 10px;
+}
+.fondo{
+	background-color: white;
+}
+a:hover, a:active, a:focus{
+    color:black;
+    font-weight: bold;
+}
+.black{
+    color: black;
+}
+.green{
+	color: #2EB872;
+}
+.Racing{
+	font-family: 'Poiret One', cursive;
+}
+#logo{
+	width: 150px;
+    height: 100px;
+    margin-top:20px;
+}
+#box1{
+	height: 350px;
+	width: 600px;
+	background-color:#fce8f5;
+	padding: 20px;
+	border-radius: 15px;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+#form{
+	margin-top: 70px;
+}
+.centrar{
+	margin-left: 120px;
+}
+#boton{
+	margin-top:25px;
+	padding-left: 450px;
+	color:#2EB872;
+}
+#ok{
+	background-color: #f767c5;
+}
+#link-sesion{
+	padding-top: 45px;
+}
+.rosa{
+	color:#f957c7;
+}
+.img{
+	width: 1500px;
+	height: 200px;
+}
+.aco{
+	width: 300px;
+	height: 250px;
+}
+.aco2{
+	width: 500px;
+	height: 500px;
+}
+.aco3{
+	height: 300px;
+	width: 250px;
+}
+.icono{
+    margin-left: 10px;
+    width: 43px;
+}
+.icono2{
+    margin-left: 20px;
+}
+@media screen and (max-width: 700px) {
+  #frase{position:}
+  #frase{
+    display: none;
+}
+@media screen and (max-width: 700px) {
+  #footer li {position:}
+  #footer li {
+   padding: 10px;
+}
+@media screen and (max-width: 700px) {
+  .icono{position:}
+  .icono{
+   width: 120px;
+}
+@media screen and (max-width: 700px) {
+  .img{position:}
+  .img{
+   height: 100px;
+}
